@@ -6,15 +6,15 @@ class JSXBaseDemo extends React.Component {
     super(props)
     this.state = {
       name: 'Pcjmy',
-      imgUrl: 'https://avatars.githubusercontent.com/u/73071671?v=4',
+      imgUrl: 'https://img1.imgtp.com/2023/02/12/dlyJ6rh9.ico',
       flag: true
     }
   }
 
   render() {
-    const styleData = { "margin-left": "27px" }
+    const styleData = { marginLeft: "27px" }
     const styleDiv = { margin: "10px" }
-    const styleImg = { width: "100px", "border-radius": "50%" }
+    const styleImg = { width: "100px", borderRadius: "50%" }
     const imgElem = <div style={styleDiv} >
       <img src={this.state.imgUrl} style={styleImg} alt="" />
       <p style={styleData}>{this.state.name}</p>
