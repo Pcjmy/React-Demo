@@ -1,8 +1,9 @@
-import JSXBaseDemo from './components/baseUse/JSXBaseDemo'
+// import JSXBaseDemo from './components/baseUse/JSXBaseDemo'
+import ConditionDemo from './components/baseUse/ConditionDemo';
 
 function App() {
   return (
-    <JSXBaseDemo />
+    <ConditionDemo />
   );
 }
 
