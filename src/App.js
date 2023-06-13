@@ -1,11 +1,7 @@
-// import JSXBaseDemo from './components/baseUse/JSXBaseDemo'
-// import ConditionDemo from './components/baseUse/ConditionDemo'
-import ListDemo from './components/baseUse/ListDemo'
+import Hello from './components/hooks/Hello'
 
 function App() {
-  return (
-    <ListDemo />
-  );
+  return <Hello />
 }
 
 export default App;
