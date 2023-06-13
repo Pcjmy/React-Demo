@@ -1,7 +1,10 @@
+import './App.css'
 import Hello from './components/hooks/Hello'
 
 function App() {
-  return <Hello />
+  return <div className="App">
+    <Hello />
+  </div>
 }
 
 export default App;
